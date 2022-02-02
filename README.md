@@ -1,2 +1,2 @@
 # LMN-System
-This system will help student to take on an online course
+This system will help student to study online. You can take any professional course of your choice depending on your interest
