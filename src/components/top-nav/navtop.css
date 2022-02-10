@@ -1,0 +1,88 @@
+.top-navbar-container{
+    display: flex;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    top: 0%;
+    align-items: center;
+    margin: 0;
+}
+
+.top-Nav-Bar-Left{
+    flex: 4;
+}
+
+.language-list{
+    border: none;
+    
+}
+
+.top-Nav-Bar-Left:focus{
+    outline: none;
+    
+}
+
+.list-item{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.list-items{
+    font-weight: 200;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.list-items:hover{
+    border: none;
+    background-color: rgb(213, 233, 252);
+    cursor: pointer;
+}
+
+.top-Nav-Bar-Middle{
+    flex: 5;
+}
+
+.top-Nav-Bar-Middle-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 400px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.top-Nav-Bar-Middle-Items{
+    list-style: none;
+}
+
+.top-Nav-Bar-Right{
+    flex: 3;
+    position: relative;
+}
+
+.list-icon{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.list-icons{
+    font-size: 22px !important;
+    color: rgb(49, 49, 131);
+    padding-left: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-line{
+    border: 1px solid rgb(218, 218, 218);
+    border-width: 1px;
+    width: 100%;
+}

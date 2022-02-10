@@ -1,0 +1,79 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    margin-top: 200px;
+}
+.footerContainer p{
+    font-size: 15px;
+    
+}
+.footerItems{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.footerItemIcon{
+    color: rgb(143, 143, 143);
+    padding-right: 25px;
+}
+.footerItemIconItem{
+    font-size: 20px !important;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.footHeader{
+    font-size: 20px;
+    font-weight: bold;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.footerHeaderItem ul{
+    margin-left: -40px;
+    flex-wrap: wrap;
+}
+.footerHeaderItem ul li{
+    padding-right: 35px;
+    margin-left: 20px;
+}
+
+.footerHeaderItem0{
+    display: flex;
+    flex-direction: row;
+}
+.footerHeaderList1{
+    display: flex;
+    flex-direction: column;
+}
+.footerHeaderList2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footerItemEmail{
+    color: rgb(143, 143, 143);
+    font-size: 15px;
+}
+.footerBlog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.footerImage{
+    width: 60px;
+    height: 40px;
+}
+.footerBlog p{
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    word-break: break-all;
+}

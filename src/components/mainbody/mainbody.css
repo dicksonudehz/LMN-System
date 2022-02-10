@@ -1,0 +1,12 @@
+.mainBodyContainer{
+    display: flex;
+    flex-direction: row;
+    top: 50px;
+    margin: 45px;
+}
+.mainBodyLeftContainer{
+    flex: 4;
+}
+.mainBodyRightContainer{
+    flex: 8;
+}

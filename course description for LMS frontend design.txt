@@ -1,0 +1,91 @@
+npm install gh-pages
+
+
+blood rituals; They cause and the effect in the society
+
+some factors that causes this are 
+
+bad parenting/ parents encouraging their wards to involve in
+frauds
+
+
+git commit "then the name of the waht you just comit"
+
+npm run deploy
+
+
+top nav: This will be divided into three parts; left, middle, right
+middle nav: This will be divided into four parts; the logo, the drop down nav plus seach
+bar, the two tabs, and the login and sign up button respectively
+
+bottom nav: This will contain just two part; the tab to the left, and the empty space
+to the right
+
+side nav: This will contain two part; the login with its details;
+and the categories
+
+body: The body will contain top and bottom
+
+the top will contain the courses sub heading to the left and sorting bar to the
+right
+
+the bottom part will contain two section;
+The first section to the left will contain the category while the second section 
+will contain the courses and it's description respectively...
+
+nav container
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Explora&family=Lora:ital,wght@1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+// with npm
+npm install @mui/material @emotion/react @emotion/styled
+
+
+to use the icons in the material ui you should install the 
+link below 
+npm install @mui/icons-material
+
+@material-ui/icons
+
+import AdUnitsIcon from '@mui/icons-material/AdUnits';
+
+import { Person, AdUnits  } from "@mui/icons-material"
+
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+
+NEEDED INSTALLED DEPENDENCIES
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Explora&family=Lora:ital,wght@1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+// with npm
+npm install @mui/material @emotion/react @emotion/styled
+
+
+to use the icons in the material ui you should install the 
+link below 
+npm install @mui/icons-material
+
+@material-ui/icons
+
+import AdUnitsIcon from '@mui/icons-material/AdUnits';
+
+import { Person, AdUnits  } from "@mui/icons-material"
+
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+
+
+"@mui/icons-material";
+
+import { Search, Person, Chat, Notifications} from "@mui/icons-material";
+
+
