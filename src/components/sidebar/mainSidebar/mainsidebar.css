@@ -1,0 +1,52 @@
+
+
+.mainSidebarContainer{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 197, 197);
+    height: 100vh;
+    margin-left: -250px;
+}
+.mainSidebarContainer .active{
+    margin-left: 0;
+    background-color: red;
+}
+.togleBar{
+    color: #fff;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 252px;
+}
+.toogleBar:hover{
+    background-color: rgb(9, 9, 129);
+    color: rgb(226, 226, 226);
+}
+.sidebarContainerMenu{
+    display: flex;
+    flex-direction: row;
+}
+.mainMenu{
+    display: flex;
+    flex-direction: row;
+}
+.menuItems{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menuItems:hover{
+    background-color: rgb(205, 206, 216);
+    cursor: pointer;
+}

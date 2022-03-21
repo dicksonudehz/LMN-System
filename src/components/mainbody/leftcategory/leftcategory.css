@@ -1,0 +1,52 @@
+.MainLeftContainer{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #ffff;
+}
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translateY(20);
+}
+.headerContainer h5{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.collapseIconos{
+    font-size: 16px !important;
+    color: blue;
+    cursor: pointer;
+}
+[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.checkboxContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.checkboxcontainerItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.checkboxcontainerItem h5{
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: normal;
+}
+.checkboxcontainerItem.checkbox{
+    font-size: 25px;
+}
+

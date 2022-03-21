@@ -1,0 +1,17 @@
+.mainTestContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100vh;
+}
+.navLeft{
+    flex: 4;
+}
+.navMiddle{
+    flex: 4;
+}
+.navRight{
+    flex: 4;
+}

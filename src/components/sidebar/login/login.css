@@ -1,0 +1,142 @@
+.mainLoginContainer{
+    z-index: 999;
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 2px 11px -3px #000000; 
+    box-shadow: 0px 2px 11px -3px #000000;
+}
+.topHeaderContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(231, 231, 231);
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.topHeaderContainer p{
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(37, 37, 37);
+}
+.loginItem{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: none;
+}
+.signUpContainerItems{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    justify-content: space-around;
+}
+.signUpContainerItems p:first-child{
+    color: black;
+    font-weight: bold;
+}
+.signUpContainerItems p:last-child{
+    color: blue;
+    cursor: pointer;
+}
+.signUpItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.inputContainer{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: grey;
+    font-size: 14px;
+    border: 1px solid grey;
+    background-color: rgb(238, 238, 238);
+}
+.inputContainer:focus{
+    outline: none;
+}
+.loginContainer{
+    width: 260px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.lostPasswordContainer{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.socialMediaLoginItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialMediaLogin{
+    width: 260px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.socialMediaLogin:last-child{
+    background-color: rgb(163, 19, 19);
+}
+.demoLogin{
+    background-color: rgb(228, 228, 228);
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    border: 1px dotted rgb(46, 46, 46);
+    
+}
+.demoHeader{
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+}
+.demoItems{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: rgb(47, 47, 153);
+}
+
