@@ -1,14 +1,16 @@
 import React from 'react';
 import BundleBody  from './BundleBody'
 import { BundleData } from './BundleData';
-import Pagination from './Pagination';
 
-function PostPerPage({post, loading, postPerPage}) {
+
+
+function PostPerPage({data, loading, postPerPage}) {
     if(loading){
         <h1>
             Loading...
         </h1>
     }
+    
   return (
     <>
     <div className="mainBundleHolder">
@@ -18,8 +20,9 @@ function PostPerPage({post, loading, postPerPage}) {
         })
       }
       </div>
-      <Pagination postPerPage = {postPerPage} totalPost = {post.length}/>
+      
       <hr horiLine/>
+      
     </>
   );
 }
