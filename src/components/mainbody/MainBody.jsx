@@ -45,6 +45,7 @@ function MainBody() {
       </div>
        </div>
        </div>
+       <hr className='horLine'/>
     </>
   );
 }

@@ -7,15 +7,18 @@ import Login from './components/sidebar/login/Login';
 import MainSidebar from './components/sidebar/mainSidebar/MainSidebar';
 import Middle_Nav from './components/top-nav/middle-nav/Middle_Nav';
 import NavTop from './components/top-nav/NavTop';
+import BundleContainer from './components/bundle/BundleContainer';
+
 
 function App() {
   return (
   <>
-  <NavTop />
+  <BundleContainer />
+  {/* <NavTop />
   <Middle_Nav />
   <NavHeader />
   <MainBody />
-  <Footer />
+  <Footer /> */}
     </>
   );
 }

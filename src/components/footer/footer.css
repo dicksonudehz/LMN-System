@@ -1,8 +1,12 @@
+.footerCon{
+    display: flex;
+    flex-direction: column;
+}
 .footerContainer{
     display: flex;
     flex-direction: row;
     margin-left: 45px;
-    margin-top: 200px;
+    margin-top: 30px;
 }
 .footerContainer p{
     font-size: 15px;

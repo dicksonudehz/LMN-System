@@ -3,6 +3,8 @@ import  './footer.css';
 
 function Footer() {
   return (
+      <div className="footerCon">
+           
     <div className="footerContainer">
         <div className="footerItems">
             <span className="footHeader">
@@ -75,6 +77,8 @@ function Footer() {
                 </div>
             </div>
         </div>
+        </div>
+       
     </div>
   )
 }

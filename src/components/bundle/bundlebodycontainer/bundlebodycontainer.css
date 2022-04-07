@@ -1,0 +1,13 @@
+.mainBundleHolder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    justify-content: start;
+    margin-bottom: 100px;
+}
+.horiLine{
+    padding-top: 100px;
+    width: 100%;
+}
